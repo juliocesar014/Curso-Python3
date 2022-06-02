@@ -1,0 +1,33 @@
+Shebang no Ambiente Windows
+
+
+Na próxima aula será explicado o conceito do Shebang, 
+porém o que está explicado funciona apenas nos ambientes Linux/MacOS. 
+A documentação do Python explica que não há suporte oficial para Shebang no Windows. 
+Para proceder corretamente nas próximas aulas sem problemas utilizando Windows 
+basta substituir a linha do shebang utilizada pelo professor pelo seguinte código: #! python
+
+Dessa forma vai funcionar normalmente no Windows da mesma forma que funciona nos outros ambientes.
+
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+
+Nas próximas aulas o professor irá executar um código no terminal com a seguinte sintaxe:
+
+./nomeDoArquivo.py
+
+No entanto, essa sintaxe não vai funcionar em todos os sistemas. 
+Se for o seu caso, basta usar a seguinte sintaxe:
+
+python nomeDoArquivo.py
+
+
+
+
+////////////////////////////////////////////////
+
+from math import pi
+
+r = input('Diga o valor do raio:')
+print('Area do circulo', pi * float(r) ** 2)

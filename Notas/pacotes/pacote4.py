@@ -1,0 +1,5 @@
+from pacotes1.modulo1 import soma
+from pacotes2.modulo1 import subtracao
+
+print('Soma', soma(3, 2))
+print('Subtracao', subtracao(3, 2))
